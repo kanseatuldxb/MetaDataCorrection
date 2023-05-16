@@ -6,11 +6,11 @@ it requires ffmpeg.exe for carry out the operations
 
 and you can adjust the metadata for videos
 
-run the code
+1. run the code
 
-select the folder in which video files are for metadata insertion
+2. select the folder in which video files are for metadata insertion
 
-and wait for process to finsh 
+3. wait for process to finsh 
 
 # addtional work can be done
 
