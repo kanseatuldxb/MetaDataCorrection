@@ -32,7 +32,7 @@ for file in directories:
         OutVideoFile = os.path.join(OutFolder,file).replace("/","\\")
         print("Staring Process ",str(i),"->",InVideoFile,"->",OutVideoFile)
         
-        os.system("VideoConverter.exe -i "+ InVideoFile +" -metadata FRAMERATE=25/1 -metadata RESOLUTION=1920x1080 -metadata title=\"traffic\" -metadata artist=\"kad\" -metadata year=\"2023\" -c:v copy -c:a copy " + OutVideoFile)
+        os.system("ffmpeg.exe -i "+ InVideoFile +" -metadata FRAMERATE=25/1 -metadata RESOLUTION=1920x1080 -metadata title=\"traffic\" -metadata artist=\"kad\" -metadata year=\"2023\" -c:v copy -c:a copy " + OutVideoFile)
         i=i+1
 
 exit()
